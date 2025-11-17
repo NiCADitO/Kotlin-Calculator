@@ -18,7 +18,7 @@ import javax.swing.JPanel
 // TODO only allow single decimal at a time --- DONE
 // TODO create a del and a reset button --- DONE
 // TODO make a variable for the label value --- DONE
-class Main : JPanel(MigLayout("debug, ins 4, fill", "[fill, sg g]5", "")) {
+class Main : JPanel(MigLayout("ins 4, fill", "[fill, sg g]5", "")) {
 
     private var nextOperator: String? = null
     private var operatorFlag: Boolean = false
