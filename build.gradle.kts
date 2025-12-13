@@ -20,6 +20,7 @@ dependencies {
     implementation(libs.jide.common)
     implementation(libs.logback)
     testImplementation(kotlin("test"))
+    testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
 }
 
 tasks.test {
