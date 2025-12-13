@@ -35,5 +35,5 @@ kotlin {
 }
 
 application {
-    mainClass.set("io.github.joshlha.partnershipproject.Main")
+    mainClass.set("io.github.joshlha.partnershipproject.MainKt")
 }
